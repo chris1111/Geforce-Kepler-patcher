@@ -12,7 +12,7 @@ To using this program SIP security must be disable
 - csrutil disable 
 - csrutil authenticated-root disable (csr-active-config ➤ EF0F0000
 - Gatekeeper must be disable
-#### IMPORTANT NOTE: The csrutil authenticated-root values must be applied before you have to reboot so if you have not already changed and made a Reset NVRAM do it and reboot then use the program.
+#### IMPORTANT NOTE: The csrutil authenticated-root values must be applied before you use this peogram so if you have not already changed and made a Reset NVRAM do it and reboot then use the program.
 
 This will create a Snapshot disk then install
 GeForce.kext
@@ -30,6 +30,6 @@ in / System / Library / Extensions
 Working for Monterey 12 Beta 7 and Higher only!
 
 - View full Video ⬇︎
-[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/134072536-7c46b8cc-4d8b-42f9-a28a-3c02734f1f5d.png)]()
+[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/134072536-7c46b8cc-4d8b-42f9-a28a-3c02734f1f5d.png)](https://www.youtube.com/watch?v=X0seonNM_1Y)
 
 
