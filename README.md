@@ -10,8 +10,9 @@ Credit: [Jacklude](https://github.com/jacklukem), [KhronoKerel](https://github.c
 To using this program SIP security must be disable
 
 - csrutil disable 
-- csrutil authenticated-root disable (csr-active-config ➤ EF0F0000)
+- csrutil authenticated-root disable (csr-active-config ➤ EF0F0000
 - Gatekeeper must be disable
+### IMPORTANT NOTE: The csrutil authenticated-root values must be applied before you have to reboot so if you have not already changed and made a Reset NVRAM do it and reboot then use the program.
 
 This will create a Snapshot disk then install
 GeForce.kext
