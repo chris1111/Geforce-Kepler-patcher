@@ -3,9 +3,10 @@
 ### Download ➤ [Geforce-Kepler-patcher](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V1)
 
 Welcome Geforce Kepler patcher
-Build by chris1111
-Created from Script Debuger
-Credit: [Jacklude](https://github.com/jacklukem), [KhronoKerel](https://github.com/dortania/PatcherSupportPkg)
+
+- Build by chris1111
+- Created from Script Debuger
+- Credit: [Jacklude](https://github.com/jacklukem), [KhronoKerel](https://github.com/dortania/PatcherSupportPkg)
 
 #### For Graphics cards based on Kepler architecture only!
 
