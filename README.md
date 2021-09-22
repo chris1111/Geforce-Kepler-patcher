@@ -8,7 +8,7 @@ Welcome Geforce Kepler patcher
 - Created from Script Debuger
 - Credit: [Jacklude](https://github.com/jacklukem), [KhronoKerel](https://github.com/dortania/PatcherSupportPkg)
 
-#### For Graphics cards based on Kepler architecture only!
+#### For Hackintosh with Graphics cards based on Kepler architecture only!
 
 To using this program SIP security must be disable
 
