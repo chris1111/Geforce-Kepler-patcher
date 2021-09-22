@@ -7,6 +7,8 @@ Build by chris1111
 Created from Script Debuger
 Credit: [Jacklude](https://github.com/jacklukem), [KhronoKerel](https://github.com/dortania/PatcherSupportPkg)
 
+#### For Graphics cards based on Kepler architecture only!
+
 To using this program SIP security must be disable
 
 - csrutil disable 
