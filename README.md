@@ -11,6 +11,8 @@ Welcome Geforce Kepler patcher
 #### For Hackintosh with Graphics cards based on Kepler architecture only!
 - If you have a Real MAC use [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
+#### Troubleshooting Terminal ➦ tccutil reset AppleEvents
+
 #### Use this program after updated macOS Monterey 12 Beta 7 only, do not use before updating Beta 7!
 To using this program SIP security must be disable
 
