@@ -9,9 +9,9 @@ Welcome Geforce Kepler patcher
 - Credit: [Jacklude](https://github.com/jacklukem), [KhronoKerel](https://github.com/dortania/PatcherSupportPkg)
 
 #### For Hackintosh with Graphics cards based on Kepler architecture only!
+- If you have a Real MAC use [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
 #### Use this program after updated macOS Monterey 12 Beta 7 only, do not use before updating Beta 7!
-
 To using this program SIP security must be disable
 
 - csrutil disable 
