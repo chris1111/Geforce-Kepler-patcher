@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottlenecks</key>
+	<dict>
+		<key>analysis_texture_stall</key>
+		<dict>
+			<key>name</key>
+			<string>Texture stall bound</string>
+			<key>description</key>
+			<string>Program is bound by texture stalls</string>
+		</dict>
+		<key>analysis_fragment_read_bytes</key>
+		<dict>
+			<key>name</key>
+			<string>Texture read bound</string>
+			<key>description</key>
+			<string>Program is bound by the number of texture reads</string>
+		</dict>
+	</dict>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>DerivedCounters</key>
+	<dict>
+		<key>TEXUtilizationPct</key>
+		<dict>
+			<key>name</key>
+			<string>TEX utilization %</string>
+			<key>description</key>
+			<string>The throughput of the TEX unit compared to maximum theoretical throughput</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatTEXCycles</string>
+				<string>MTLStatTEXUtilizationPctP1</string>
+				<string>MTLStatTEXUtilizationPctP2</string>
+				<string>MTLStatTEXUtilizationPctP3</string>
+				<string>MTLStatTEXUtilizationPctP4</string>
+				<string>MTLStatTEXUtilizationPctP5</string>
+				<string>MTLStatTEXUtilizationPctP6</string>
+			</array>
+		</dict>
+		<key>TEXSMUtilizationPct</key>
+		<dict>
+			<key>name</key>
+			<string>TEX SM Utilization %</string>
+			<key>description</key>
+			<string>Percentage of the SM unit spent in TEX</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatTEXCycles</string>
+				<string>MTLStatTEXSMUtilizationPctP1</string>
+				<string>MTLStatTEXSMUtilizationPctP2</string>
+			</array>
+		</dict>
+		<key>TEXReadBytes</key>
+		<dict>
+			<key>name</key>
+			<string>TEX read bytes</string>
+			<key>description</key>
+			<string>Number of bytes read in by TEX</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatTEXReadBytesP1</string>
+				<string>MTLStatTEXReadBytesP2</string>
+			</array>
+		</dict>
+		<key>ZROPUtilizationPct</key>
+		<dict>
+			<key>name</key>
+			<string>ZROP utilization %</string>
+			<key>description</key>
+			<string>The throughput of the ZROP unit compared to a maximum theoretical throughput</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatZROPActiveCycles</string>
+				<string>MTLStatZROPUtilizationP4</string>
+				<string>MTLStatZROPUtilizationP3</string>
+				<string>MTLStatZROPUtilizationP2</string>
+				<string>MTLStatZROPUtilizationP1</string>
+			</array>
+		</dict>
+		<key>ZROPBusyCycles</key>
+		<dict>
+			<key>name</key>
+			<string>ZROP busy cycles</string>
+			<key>description</key>
+			<string>Number of cycles the ZROP unit is busy</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatZROPBusyCycles</string>
+			</array>
+		</dict>
+		<key>ZROPBusyPct</key>
+		<dict>
+			<key>name</key>
+			<string>ZROP busy %</string>
+			<key>description</key>
+			<string>Percentage of elapsed clocks the ZROP unit is busy</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatZROPBusyCycles</string>
+				<string>MTLStatZROPActiveCycles</string>
+			</array>
+		</dict>
+		<key>CROPUtilizationPct</key>
+		<dict>
+			<key>name</key>
+			<string>CROP utilization %</string>
+			<key>description</key>
+			<string>The throughput of the CROP unit compared to a maximum theoretical throughput</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatCROPActiveCycles</string>
+				<string>MTLStatCROPUtilizationP4</string>
+				<string>MTLStatCROPUtilizationP3</string>
+				<string>MTLStatCROPUtilizationP2</string>
+				<string>MTLStatCROPUtilizationP1</string>
+			</array>
+		</dict>
+		<key>CROPBusyCycles</key>
+		<dict>
+			<key>name</key>
+			<string>CROP busy cycles</string>
+			<key>description</key>
+			<string>Number of cycles the CROP unit is busy</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatCROPBusyCycles</string>
+			</array>
+		</dict>
+		<key>CROPBusyPct</key>
+		<dict>
+			<key>name</key>
+			<string>CROP busy %</string>
+			<key>description</key>
+			<string>Percentage of elapsed clocks the CROP unit is busy</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatCROPBusyCycles</string>
+				<string>MTLStatCROPActiveCycles</string>
+			</array>
+		</dict>
+		<key>ROPUtilizationPct</key>
+		<dict>
+			<key>name</key>
+			<string>ROP utilization %</string>
+			<key>description</key>
+			<string>The throughput of the ROP unit compared to a maximum theoretical throughput</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatROPBusyCycles</string>
+				<string>MTLStatROPElapsedCycles</string>
+			</array>
+		</dict>
+		<key>SMActiveCycles</key>
+		<dict>
+			<key>name</key>
+			<string>SM active cycles</string>
+			<key>description</key>
+			<string>Number of cycles the SM unit is busy</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatSMActiveCycles</string>
+			</array>
+		</dict>
+		<key>TEXCacheHitratePct</key>
+		<dict>
+			<key>name</key>
+			<string>TEX cache hit %</string>
+			<key>description</key>
+			<string>The percentage of TEX requests that hit cache</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatTEXHitratePctP1</string>
+				<string>MTLStatTEXHitratePctP2</string>
+				<string>MTLStatTEXHitratePctP3</string>
+				<string>MTLStatTEXHitratePctP4</string>
+			</array>
+		</dict>
+		<key>TEXTexelCount</key>
+		<dict>
+			<key>name</key>
+			<string>Texel count</string>
+			<key>description</key>
+			<string>The total number of texels queried.</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatTEXTexelCountP1</string>
+				<string>MTLStatTEXTexelCountP2</string>
+			</array>
+		</dict>
+		<key>TEXBytesPerTexel</key>
+		<dict>
+			<key>name</key>
+			<string>Texture bytes per texel</string>
+			<key>description</key>
+			<string>Average number of bytes loaded per texel fetched</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>TEXTexelCount</string>
+				<string>TEXReadBytes</string>
+			</array>
+		</dict>
+		<key>TEXBytesPerPixel</key>
+		<dict>
+			<key>name</key>
+			<string>Texture bytes read per pixel</string>
+			<key>description</key>
+			<string>The number of bytes loaded using the TEX unit per pixel</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>TEXTexelCount</string>
+				<string>PixelsShaded</string>
+			</array>
+		</dict>
+		<key>TEXBusyPct</key>
+		<dict>
+			<key>name</key>
+			<string>TEX busy %</string>
+			<key>description</key>
+			<string>Percentage of elapsed cycles that the TEX unit is busy</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatTEXCycles</string>
+				<string>MTLStatTEXBusyPctP1</string>
+				<string>MTLStatTEXBusyPctP2</string>
+			</array>
+		</dict>
+		<key>SMTEXUtilizationPct</key>
+		<dict>
+			<key>name</key>
+			<string>SM TEX utilization %</string>
+			<key>description</key>
+			<string>Percentage utilization of the SM to TEX interface</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatSMTEXUtilizationPctP1</string>
+				<string>MTLStatSMTEXUtilizationPctP2</string>
+			</array>
+		</dict>
+		<key>ALUUtilizationPct</key>
+		<dict>
+			<key>name</key>
+			<string>ALU utilization %</string>
+			<key>description</key>
+			<string>Percentage utilization of the SM ALU pipe</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatSMActiveCycles</string>
+				<string>MTLStatALUUtilizationPctP1</string>
+				<string>MTLStatALUUtilizationPctP2</string>
+			</array>
+		</dict>
+		<key>WarpCountCS</key>
+		<dict>
+			<key>name</key>
+			<string>Compute warps count</string>
+			<key>description</key>
+			<string>Total number of compute warps launched</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatWarpCountCSP1</string>
+				<string>MTLStatWarpCountCSP2</string>
+			</array>
+		</dict>
+		<key>WarpCountPS</key>
+		<dict>
+			<key>name</key>
+			<string>Fragment warp count</string>
+			<key>description</key>
+			<string>Total number of fragment warps launched</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatWarpCountFSP1</string>
+				<string>MTLStatWarpCountFSP2</string>
+			</array>
+		</dict>
+		<key>WarpCountVS</key>
+		<dict>
+			<key>name</key>
+			<string>Vertex warps count</string>
+			<key>description</key>
+			<string>Total number of vertex warps launched</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatWarpCountVSP1</string>
+				<string>MTLStatWarpCountVSP2</string>
+			</array>
+		</dict>
+		<key>WarpCount</key>
+		<dict>
+			<key>name</key>
+			<string>Warps launched</string>
+			<key>description</key>
+			<string>Total number of warps launched</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatWarpCountP1</string>
+				<string>MTLStatWarpCountP2</string>
+			</array>
+		</dict>
+		<key>VertexInvocations</key>
+		<dict>
+			<key>name</key>
+			<string>Number of vertex program invocations</string>
+			<key>description</key>
+			<string>Total number of vertex program invocations for this draw call</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatVSInvocations</string>
+			</array>
+		</dict>
+		<key>FragmentInvocations</key>
+		<dict>
+			<key>name</key>
+			<string>Number of fragment program invocations</string>
+			<key>description</key>
+			<string>Total number of fragment program invocations for this draw call</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatPSInvocations</string>
+			</array>
+		</dict>
+		<key>ComputeInvocations</key>
+		<dict>
+			<key>name</key>
+			<string>Number of compute program invocations</string>
+			<key>description</key>
+			<string>Total number of vertex program invocations for this draw call</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatWarpCountCSP1</string>
+				<string>MTLStatWarpCountCSP2</string>
+			</array>
+		</dict>
+		<key>TotalInvocations</key>
+		<dict>
+			<key>name</key>
+			<string>Total invocation count</string>
+			<key>description</key>
+			<string>Total number of vertex/fragment/compute program invocations</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>VertexInvocations</string>
+				<string>FragmentInvocations</string>
+				<string>ComputeInvocations</string>
+			</array>
+		</dict>
+		<key>InstructionCountMemory</key>
+		<dict>
+			<key>name</key>
+			<string>Memory instruction count</string>
+			<key>description</key>
+			<string>Number of memory instructions executed</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatInstLSUP5</string>
+				<string>MTLStatInstLSUP4</string>
+				<string>MTLStatInstLSUP3</string>
+				<string>MTLStatInstLSUP2</string>
+				<string>MTLStatInstLSUP1</string>
+			</array>
+		</dict>
+		<key>BytesRead</key>
+		<dict>
+			<key>name</key>
+			<string>Bytes read per thread</string>
+			<key>description</key>
+			<string>Number of bytes read in per thread</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatInstLSUP5</string>
+				<string>MTLStatInstLSUP4</string>
+				<string>MTLStatInstLSUP3</string>
+				<string>MTLStatInstLSUP2</string>
+				<string>MTLStatInstLSUP1</string>
+			</array>
+		</dict>
+		<key>TotalBytesRead</key>
+		<dict>
+			<key>name</key>
+			<string>Total bytes read</string>
+			<key>description</key>
+			<string>Total number of bytes read in this draw call</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>BytesRead</string>
+				<string>WarpCount</string>
+			</array>
+		</dict>
+		<key>InstructionCountAtomic</key>
+		<dict>
+			<key>name</key>
+			<string>Atomic instruction count</string>
+			<key>description</key>
+			<string>Number of atomic instructions executed</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatInstCountAtomic</string>
+			</array>
+		</dict>
+		<key>InstIssuedPerActiveCycle</key>
+		<dict>
+			<key>name</key>
+			<string>Instructions issued per cycle</string>
+			<key>description</key>
+			<string>Number of instructions issued per active cycle</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatSMActiveCycles</string>
+				<string>MTLStatInstExecutedPerActiveCycleP1</string>
+				<string>MTLStatInstExecutedPerActiveCycleP2</string>
+			</array>
+		</dict>
+		<key>InstExecutedPerActiveCycle</key>
+		<dict>
+			<key>name</key>
+			<string>Instructions executed per cycle</string>
+			<key>description</key>
+			<string>Number of instructions executed per active cycle</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatSMActiveCycles</string>
+				<string>MTLStatInstIssuedPerActiveCycleP1</string>
+				<string>MTLStatInstIssuedPerActiveCycleP2</string>
+			</array>
+		</dict>
+		<key>InstructionCountCS</key>
+		<dict>
+			<key>name</key>
+			<string>Compute instruction count</string>
+			<key>description</key>
+			<string>The number of compute instructions executed by a SM scheduler</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatInstCountCS</string>
+			</array>
+		</dict>
+		<key>InstructionCountPS</key>
+		<dict>
+			<key>name</key>
+			<string>Fragment instruction count</string>
+			<key>description</key>
+			<string>The number of fragment instructions executed by a SM scheduler</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatInstCountFS</string>
+			</array>
+		</dict>
+		<key>InstructionCountVS</key>
+		<dict>
+			<key>name</key>
+			<string>Vertex instruction count</string>
+			<key>description</key>
+			<string>The number of vertex instructions executed by a SM scheduler</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatInstCountVS</string>
+			</array>
+		</dict>
+		<key>InstructionCount</key>
+		<dict>
+			<key>name</key>
+			<string>Total instruction count</string>
+			<key>description</key>
+			<string>Total number of instructions executed </string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatInstCount</string>
+			</array>
+		</dict>
+		<key>PixelsWritten</key>
+		<dict>
+			<key>name</key>
+			<string>Pixels written</string>
+			<key>description</key>
+			<string>Number of pixels sent to ROP</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatPixelsWritten</string>
+			</array>
+		</dict>
+		<key>PixelsKilled</key>
+		<dict>
+			<key>name</key>
+			<string>Pixels killed</string>
+			<key>description</key>
+			<string>Number of pixels killed by shader</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>PixelsWritten</string>
+				<string>PixelsShaded</string>
+			</array>
+		</dict>
+		<key>PixelsShaded</key>
+		<dict>
+			<key>name</key>
+			<string>Pixels shaded</string>
+			<key>description</key>
+			<string>Number of pixels shaded</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatPixelsShadedP1</string>
+				<string>MTLStatPixelsShadedP2</string>
+			</array>
+		</dict>
+		<key>VerticesReused</key>
+		<dict>
+			<key>name</key>
+			<string>Vertices reused</string>
+			<key>description</key>
+			<string>Number of reused vertices </string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatVerticesSubmitted</string>
+				<string>MTLStatVertices</string>
+			</array>
+		</dict>
+		<key>VerticesRendered</key>
+		<dict>
+			<key>name</key>
+			<string>Vertices rendered</string>
+			<key>description</key>
+			<string>Number of vertices rendered</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatVerticesRendered</string>
+			</array>
+		</dict>
+		<key>VerticesSubmitted</key>
+		<dict>
+			<key>name</key>
+			<string>Vertices submitted</string>
+			<key>description</key>
+			<string>Number of vertices submitted</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatVerticesSubmitted</string>
+			</array>
+		</dict>
+		<key>PrimitivesClipped</key>
+		<dict>
+			<key>name</key>
+			<string>Primitives clipped</string>
+			<key>description</key>
+			<string>Number of primitives clipped</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatPrimitivesClipped</string>
+			</array>
+		</dict>
+		<key>PrimitivesCulled</key>
+		<dict>
+			<key>name</key>
+			<string>Primitives culled</string>
+			<key>description</key>
+			<string>Number of primitives culled</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatPrimitivesCulled</string>
+			</array>
+		</dict>
+		<key>PrimitivesRendered</key>
+		<dict>
+			<key>name</key>
+			<string>Primitives rendered</string>
+			<key>description</key>
+			<string>Number of primitives rendered</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatPrimitivesRendered</string>
+			</array>
+		</dict>
+		<key>PrimitivesSubmitted</key>
+		<dict>
+			<key>name</key>
+			<string>Primitives submitted</string>
+			<key>description</key>
+			<string>Number of primitives submitted</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatPrimitivesSubmitted</string>
+			</array>
+		</dict>
+		<key>L1CacheThroughputPct</key>
+		<dict>
+			<key>name</key>
+			<string>L1 cache throughput</string>
+			<key>description</key>
+			<string>The throughput of L1 cache compared to a maximum theoretical throughput</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatL1SMRequests</string>
+				<string>MTLStatL1Cycles</string>
+			</array>
+		</dict>
+		<key>SMBusyPct</key>
+		<dict>
+			<key>name</key>
+			<string>SM busy %</string>
+			<key>description</key>
+			<string>Percentage of elapsed cycles the sm unit is busy</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatSMBusyCycles</string>
+				<string>MTLStatSMActiveCycles</string>
+			</array>
+		</dict>
+		<key>SMUtilizationPct</key>
+		<dict>
+			<key>name</key>
+			<string>SM utilization %</string>
+			<key>description</key>
+			<string>The throughput of the SM unit compared to a maximum theoretical throughput</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatSMUtilization</string>
+			</array>
+		</dict>
+		<key>GRBusyPct</key>
+		<dict>
+			<key>name</key>
+			<string>GR busy %</string>
+			<key>description</key>
+			<string>Percentage of elapsed cycles that the 3D and compute engines were busy</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatGRBusyCycles</string>
+				<string>MTLStatGRElapsedCycles</string>
+			</array>
+		</dict>
+		<key>GRIdlePct</key>
+		<dict>
+			<key>name</key>
+			<string>GR idle %</string>
+			<key>description</key>
+			<string>Percentage of elapsed cycles that the 3D and compute engines were idle</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatGRIdleCycles</string>
+				<string>MTLStatGRElapsedCycles</string>
+			</array>
+		</dict>
+		<key>HostElapsedCycles</key>
+		<dict>
+			<key>name</key>
+			<string>Host elapsed cycles</string>
+			<key>description</key>
+			<string>Number of cycles spent in host processing methods</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatHostElapsedCycles</string>
+			</array>
+		</dict>
+		<key>GpcElapsedCycles</key>
+		<dict>
+			<key>name</key>
+			<string>GPC elapsed cycles</string>
+			<key>description</key>
+			<string>Number of cycles spent in GPC</string>
+			<key>type</key>
+			<string>Count</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatGpcElapsedCycles</string>
+			</array>
+		</dict>
+		<key>SampleToTimeRatio</key>
+		<dict>
+			<key>name</key>
+			<string>Sample to time ratio</string>
+			<key>description</key>
+			<string>Sample to time ratio</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatSample_nSec</string>
+				<string>MTLStat_nSec</string>
+			</array>
+		</dict>
+		<key>PixelsPerVertex</key>
+		<dict>
+			<key>name</key>
+			<string>Pixels per vertex</string>
+			<key>description</key>
+			<string>Average number of pixels covered by vertex issued</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>PixelsShaded</string>
+				<string>VerticesSubmitted</string>
+			</array>
+		</dict>
+		<key>PixelsPerTriangle</key>
+		<dict>
+			<key>name</key>
+			<string>Pixels per triangle</string>
+			<key>description</key>
+			<string>Average number of pixels covered by triangle issued</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>PixelsShaded</string>
+				<string>PrimitivesSubmitted</string>
+			</array>
+		</dict>
+		<key>PrimitiveClippedPct</key>
+		<dict>
+			<key>name</key>
+			<string>Percentage of primitives clipped</string>
+			<key>description</key>
+			<string>Percentage of issued primitives clipped</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>PrimitivesClipped</string>
+				<string>PrimitivesSubmitted</string>
+			</array>
+		</dict>
+		<key>PrimitiveCulledPct</key>
+		<dict>
+			<key>name</key>
+			<string>Percentage of primitives culled</string>
+			<key>description</key>
+			<string>Percentage of issued primitives culled</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>PrimitivesCulled</string>
+				<string>PrimitivesSubmitted</string>
+			</array>
+		</dict>
+		<key>PrimitiveRenderedPct</key>
+		<dict>
+			<key>name</key>
+			<string>Percentage of primitives rendered</string>
+			<key>description</key>
+			<string>Percentage of issued primitives that were rendered</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>PrimitivesRendered</string>
+				<string>PrimitivesSubmitted</string>
+			</array>
+		</dict>
+		<key>VerticesReusedPct</key>
+		<dict>
+			<key>name</key>
+			<string>Percentage of vertices reused</string>
+			<key>description</key>
+			<string>Percentage of vertices that been reused</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>VerticesReused</string>
+				<string>VerticesSubmitted</string>
+			</array>
+		</dict>
+		<key>VerticesRenderedPct</key>
+		<dict>
+			<key>name</key>
+			<string>Percentage of vertices rendered</string>
+			<key>description</key>
+			<string>Percentage of vertices that have been rendered</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>VerticesRendered</string>
+				<string>VerticesSubmitted</string>
+			</array>
+		</dict>
+		<key>PixelsKilledPct</key>
+		<dict>
+			<key>name</key>
+			<string>Percentage of pixels killed</string>
+			<key>description</key>
+			<string>Percentage of pixels that have been killed in the shader</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>PixelsKilled</string>
+				<string>PixelsShaded</string>
+			</array>
+		</dict>
+		<key>MemoryInstructionsPerWarp</key>
+		<dict>
+			<key>name</key>
+			<string>Memory instructions per warp</string>
+			<key>description</key>
+			<string>Average number of memory instructions issued per warp</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>InstructionCountMemory</string>
+				<string>WarpCount</string>
+			</array>
+		</dict>
+		<key>VertexInstructionsPerWarp</key>
+		<dict>
+			<key>name</key>
+			<string>Vertex instructions per warp</string>
+			<key>description</key>
+			<string>Average number of vertex instructions issued per warp</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>InstructionCountVS</string>
+				<string>WarpCount</string>
+			</array>
+		</dict>
+		<key>FragmentInstructionsPerWarp</key>
+		<dict>
+			<key>name</key>
+			<string>Fragment instructions per warp</string>
+			<key>description</key>
+			<string>Average number of fragment instructions issued per warp</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>InstructionCountPS</string>
+				<string>WarpCount</string>
+			</array>
+		</dict>
+		<key>ComputeInstructionsPerWarp</key>
+		<dict>
+			<key>name</key>
+			<string>Compute instructions per warp</string>
+			<key>description</key>
+			<string>Average number of compute instructions issued per warp</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>InstructionCountCS</string>
+				<string>WarpCount</string>
+			</array>
+		</dict>
+		<key>TotalInstructionsPerWarp</key>
+		<dict>
+			<key>name</key>
+			<string>Total instructions per warp</string>
+			<key>description</key>
+			<string>Average number of instructions issued per warp</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>InstructionCount</string>
+				<string>WarpCount</string>
+			</array>
+		</dict>
+		<key>MemoryInstructionsPerInvocation</key>
+		<dict>
+			<key>name</key>
+			<string>Memory instructions per invocation</string>
+			<key>description</key>
+			<string>Average number of memory instructions issued per invocation</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>InstructionCountMemory</string>
+				<string>TotalInvocations</string>
+			</array>
+		</dict>
+		<key>VertexInstructionsPerInvocation</key>
+		<dict>
+			<key>name</key>
+			<string>Vertex instructions per invocation</string>
+			<key>description</key>
+			<string>Average number of vertex instructions issued per invocation</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>InstructionCountVS</string>
+				<string>TotalInvocations</string>
+			</array>
+		</dict>
+		<key>FragmentInstructionsPerInvocation</key>
+		<dict>
+			<key>name</key>
+			<string>Fragment instructions per invocation</string>
+			<key>description</key>
+			<string>Average number of fragment instructions issued per invocation</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>InstructionCountPS</string>
+				<string>TotalInvocations</string>
+			</array>
+		</dict>
+		<key>ComputeInstructionsPerInvocation</key>
+		<dict>
+			<key>name</key>
+			<string>Compute instructions per invocation</string>
+			<key>description</key>
+			<string>Average number of compute instructions issued per invocation</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>InstructionCountCS</string>
+				<string>TotalInvocations</string>
+			</array>
+		</dict>
+		<key>TotalInstructionsPerInvocation</key>
+		<dict>
+			<key>name</key>
+			<string>Total instructions per invocation</string>
+			<key>description</key>
+			<string>Average number of instructions issued per invocation</string>
+			<key>type</key>
+			<string>Ratio</string>
+			<key>counters</key>
+			<array>
+				<string>InstructionCount</string>
+				<string>TotalInvocations</string>
+			</array>
+		</dict>
+		<key>VertexCost</key>
+		<dict>
+			<key>name</key>
+			<string>Vertex Cost</string>
+			<key>description</key>
+			<string>Percentage of draw time spent processing vertices</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatVertexCost</string>
+			</array>
+		</dict>
+		<key>FragmentCost</key>
+		<dict>
+			<key>name</key>
+			<string>Fragment Cost</string>
+			<key>description</key>
+			<string>Percentage of draw time spent processing fragments</string>
+			<key>type</key>
+			<string>Percentage</string>
+			<key>counters</key>
+			<array>
+				<string>MTLStatFragmentCost</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
