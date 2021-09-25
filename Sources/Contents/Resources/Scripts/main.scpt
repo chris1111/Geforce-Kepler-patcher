@@ -13,6 +13,7 @@ To using this program SIP security must be disable
 - csrutil disable 
 - csrutil authenticated-root disable 
 (csr-active-config ➤ EF0F0000)
+SecureBootModel ➤ Disabled
 - Gatekeeper must be disable
 
 This will create a Snapshot disk then install
