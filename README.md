@@ -23,6 +23,7 @@ To using this program SIP security must be disable
 - SecureBootModel ➤ Disabled
 - Gatekeeper must be disable
 #### IMPORTANT NOTE: The csrutil authenticated-root values must be applied before you use this peogram so if you have not already changed and made a Reset NVRAM do it and reboot then use the program. Also SecureBootModel must be Disabled in config.plist.
+- Clover (csr-active-config ➤ 0x867
 
 #### This will create a Snapshot disk then install
 - GeForce.kext
