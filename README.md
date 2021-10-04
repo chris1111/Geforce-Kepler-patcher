@@ -1,8 +1,8 @@
 # Geforce-Kepler-patcher
 
-### Download ➤ [Geforce-Kepler-patcher](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V2)
+### Download ➤ [Geforce-Kepler-patcher-V2](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V2)
 
-### Download ➤ [Geforce-Kepler-patcher](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V1)
+### Download ➤ [Geforce-Kepler-patcher-V1](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V1)
 
 Welcome Geforce Kepler patcher
 
