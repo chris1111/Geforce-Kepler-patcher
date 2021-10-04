@@ -5,14 +5,14 @@
 	<key>BuildAliasOf</key>
 	<string>GPUDriversNvidia</string>
 	<key>BuildVersion</key>
-	<string>341</string>
+	<string>587</string>
 	<key>CFBundleShortVersionString</key>
-	<string>16.0.13</string>
+	<string>16.0.12</string>
 	<key>CFBundleVersion</key>
 	<string>16.0.0</string>
 	<key>ProjectName</key>
 	<string>GPUDriversNvidia</string>
 	<key>SourceVersion</key>
-	<string>16000013000000</string>
+	<string>16000012000000</string>
 </dict>
 </plist>
