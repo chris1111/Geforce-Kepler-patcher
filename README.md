@@ -17,7 +17,7 @@ Welcome Geforce Kepler patcher
 
 #### Working for macOS Monterey Beta 7, Beta 8
 
-#### Use this program after updated macOS Monterey 12 Beta 7, Beta 8 only, do not use before updating Beta 7 or Beta 8 !
+#### Use this program after updated macOS Monterey 12 Beta 7xx only, do not use before updating Beta 7xx !
 To using this program SIP security must be disable
 
 - csrutil disable 
