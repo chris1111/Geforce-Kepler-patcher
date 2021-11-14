@@ -15,7 +15,7 @@ Welcome Geforce Kepler patcher
 
 #### Troubleshooting Terminal ➦ tccutil reset AppleEvents
 
-#### Working for macOS Monterey Beta 7, Beta 8
+#### Working for macOS Monterey Beta 7 and Later
 
 #### Use this program after updated macOS Monterey 12 Beta 7xx only, do not use before updating Beta 7xx !
 To using this program SIP security must be disable
