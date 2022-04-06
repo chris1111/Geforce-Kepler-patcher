@@ -20,8 +20,8 @@ Welcome Geforce Kepler patcher
 #### Use this program after updated macOS Monterey 12 Beta 7xx only, do not use before updating Beta 7xx !
 To using this program SIP security must be disable
 
-- csrutil disable 
-- Usage OpenCore csrutil authenticated-root disable (csr-active-config ➤ EF0F0000
+- csrutil authenticated-root disable
+- - Usage OpenCore csrutil authenticated-root disable (csr-active-config ➤ EF0F0000
 - Usage Clover csrutil authenticated-root disable (csr-active-config ➤ 0xFEF
 - This value Also works for Clover (csr-active-config ➤ 0x867
 - SecureBootModel ➤ Disabled
