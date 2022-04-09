@@ -24,11 +24,11 @@ To using this program SIP security must be disable
 - Usage OpenCore: csrutil authenticated-root disable `csr-active-config` ➤ EF0F0000
 - Usage Clover: csrutil authenticated-root disable `csr-active-config` ➤ 0xFEF
 - This value Also works for Clover `csr-active-config` ➤ 0x867
-- 
+
 ###  SIP Enable ⬇︎ 
 - Usage OpenCore: csrutil enable + csrutil authenticated-root disable `csr-active-config` ➤ 00080000
 
-###  SecureBootModel must be Disabled in config.plist ⬇︎
+### ⬇︎ SecureBootModel must be Disabled in config.plist
 - `SecureBootModel` ➤ Disabled
 
 - Gatekeeper must be disable
