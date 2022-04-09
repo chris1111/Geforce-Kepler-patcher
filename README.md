@@ -27,6 +27,9 @@ To using this program SIP security must be disable
 
 ###  SIP Enable ⬇︎ 
 - Usage OpenCore: csrutil enable + csrutil authenticated-root disable `csr-active-config` ➤ 00080000
+- IMPORTANT NOTE: This value cannot be used to install the program, if you want to use it you will have to change it after installation with ➤  `EF0F0000`
+ 
+
 
 ### ⬇︎ SecureBootModel must be Disabled in config.plist
 - `SecureBootModel` ➤ Disabled
