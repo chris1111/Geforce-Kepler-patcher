@@ -21,9 +21,9 @@ Welcome Geforce Kepler patcher
 To using this program SIP security must be disable
 
 - csrutil authenticated-root disable
-- Usage OpenCore csrutil authenticated-root disable `csr-active-config` ➤ EF0F0000
-- Usage OpenCore csrutil status enable csrutil authenticated-root disable `csr-active-config` ➤ 00080000
-- Usage Clover csrutil authenticated-root disable `csr-active-config` ➤ 0xFEF
+- Usage OpenCore: csrutil authenticated-root disable `csr-active-config` ➤ EF0F0000
+- Usage OpenCore: csrutil enable csrutil authenticated-root disable `csr-active-config` ➤ 00080000
+- Usage Clover: csrutil authenticated-root disable `csr-active-config` ➤ 0xFEF
 - This value Also works for Clover `csr-active-config` ➤ 0x867
 - `SecureBootModel` ➤ Disabled
 - Gatekeeper must be disable
