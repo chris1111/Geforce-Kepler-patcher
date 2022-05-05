@@ -12,7 +12,6 @@ Welcome Geforce Kepler patcher
 - If you have a Real MAC use [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
 #### Troubleshooting Terminal ➦ tccutil reset AppleEvents
-- This message is because of the SIP which is not deactivated for some reason ➤ [Error 77](https://user-images.githubusercontent.com/6248794/166895801-d0817ce9-da78-4672-8ca5-b6e45e5b04a3.png)
 
 
 #### Working for macOS Monterey Beta 7 and Later
