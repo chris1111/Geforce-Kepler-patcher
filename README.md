@@ -1,6 +1,7 @@
 # Geforce-Kepler-patcher
 
 ### Download ➤ [Geforce-Kepler-patcher-V3](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V3)
+- Latest Update 23 may 2022 open the app in safe place
 
 Welcome Geforce Kepler patcher
 
@@ -11,7 +12,7 @@ Welcome Geforce Kepler patcher
 #### For Hackintosh with Graphics cards based on Kepler architecture only!
 - If you have a Real MAC use [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
-#### Troubleshooting Terminal ➦ tccutil reset AppleEvents
+#### Troubleshooting Terminal ➦ `tccutil reset AppleEvents`
 
 
 #### Working for macOS Monterey Beta 7 and Later
