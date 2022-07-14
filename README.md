@@ -1,6 +1,7 @@
 # Geforce-Kepler-patcher
 
 ### Download ➤ [Geforce-Kepler-patcher-V3](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V3)
+* Warning: This app not working after macOS Monterey 12.5 Beta 2
 - Latest Update 23 may 2022 open the app in safe place
 
 Welcome Geforce Kepler patcher
