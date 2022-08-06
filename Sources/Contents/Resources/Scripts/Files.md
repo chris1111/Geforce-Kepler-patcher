@@ -12,3 +12,7 @@ From macOS 12.0 B6 (21A5506j):
 - NVDAGK100Hal.kext
 - NVDAResman.kext
 - NVDAStartup.kext
+
+From macOS 12.5 B2 :
+- Metal.framework
+

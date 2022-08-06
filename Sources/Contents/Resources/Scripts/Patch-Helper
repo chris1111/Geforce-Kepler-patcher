@@ -1,8 +1,6 @@
 #!/bin/bash
 # By chris1111
-# Version "1.0" Geforce Kepler-patcher
-# Base on jackluke work
-# Credit: KhronoKernel for the binaries
+# Version "1.0" Geforce Kepler patcher# Base on jackluke work# Credit: KhronoKernel for the binaries
 
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
@@ -10,6 +8,8 @@ cd "$PARENTDIR"
 sudo cp -R ./*.kext /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/System/Library/Extensions
 Sleep 1
 sudo cp -R ./*.bundle /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/System/Library/Extensions
+Sleep 1
+sudo cp -R ./Metal.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/System/Library/Frameworks
 Sleep 1
 echo "Kext Cache repair! Please wait. ."
 sudo chown -R root:wheel /System/Volumes/Update/mnt1/System/Library/Extensions
