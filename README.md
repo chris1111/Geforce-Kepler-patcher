@@ -49,7 +49,7 @@ To using this program SIP security must be disable
 - NVDAResman.kext
 - NVDAStartup.kext
 - in / System / Library / Extensions 
-
+- in / System / Library / Frameworks /Metal.framework
 
 Working for Monterey 12 Beta 7 and Higher only!
 
