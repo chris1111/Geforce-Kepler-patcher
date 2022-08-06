@@ -2,7 +2,7 @@
 
 ### Download ➤ [Geforce-Kepler-patcher-V4](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V4)
  
-- Latest Update 06 August 2022 FIX kepler patcher 12.5 (21G72)
+- Latest Update 06 August 2022 FIX kepler patcher 12.5 (21G72) - Login loop is resolved
 
 Welcome Geforce Kepler patcher
 
