@@ -37,7 +37,7 @@ Welcome Geforce Kepler patcher
 
 - Build by chris1111
 - Created from Script Debuger
-- Credit: Base on [Jackluke methode](https://github.com/jacklukem), Find binaries [KhronoKerel](https://github.com/dortania/PatcherSupportPkg)
+- Credit: Base on [Jackluke methode](https://github.com/jacklukem), Find binaries [KhronoKernel](https://github.com/dortania/PatcherSupportPkg)
 
 #### For Hackintosh with Graphics cards based on Kepler architecture only!
 - If you have a Real MAC use [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher)
