@@ -1,5 +1,23 @@
 # Geforce-Kepler-patcher
-![Binaries](https://user-images.githubusercontent.com/6248794/183267968-183a5ec7-0b01-412c-bae5-51e73a679a8b.png)
+
+
+```diff
++ Nvidia Kepler Binaries
+   # /System/Library/Extensions
+        GeForce.kext ➣ "12.0 Beta 6"
+        NVDAGF100Hal.kext ➣ "12.0 Beta 6"
+        NVDAGK100Hal.kext ➣ "12.0 Beta 6"
+        NVDAResman.kext ➣ "12.0 Beta 6"
+        NVDAStartup.kext ➣ "12.0 Beta 6"
+        GeForceAIRPlugin.bundle ➣ "11.0 Beta 3"
+        GeForceGLDriver.bundle ➣ "11.0 Beta 3"
+        GeForceMTLDriver.bundle ➣ "11.0 Beta 3"
+        GeForceVADriver.bundle ➣ "12.0 Beta 6"
+     
+   # /System/Library/Frameworks
+        Metal.framework ➣ "12.5 Beta 2"
+
+```
 
 ## ⬇︎ - Support Models Desktop card:
 <details> 
