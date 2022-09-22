@@ -1,0 +1,14 @@
+#!/bin/bash
+# By chris1111
+# Version "1.0" Geforce Kepler patcher
+# Base on jackluke work
+# Credit: KhronoKernel for the binaries
+
+PARENTDIR=$(dirname "$0")
+cd "$PARENTDIR"
+
+echo "Revert Snapshot"
+
+sudo bless --folder /System/Volumes/Update/mnt1/System/Library/CoreServices --bootefi --last-sealed-snapshot
+
+echo "Done"
