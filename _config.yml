@@ -2,4 +2,4 @@ title: Geforce-Kepler-patcher
 description: Simple macOS app Droplet for create an Icon from PNG file.
 github:
   repository_url: https://github.com/chris1111/Geforce-Kepler-patcher
-remote_theme: lewismiddleton/cayman-dark
+remote_theme: chris1111/cayman-dark
