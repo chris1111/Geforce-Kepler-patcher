@@ -25,7 +25,7 @@ layout: default
 
 ```
 
-## Support Models Desktop card 🔎 ➤ [Desktop card](https://github.com/chris1111/Geforce-Kepler-patcher/blob/master/support.md)
+## Support Models Desktop card 🔎 ➤ [Desktop card](https://github.com/chris1111/Geforce-Kepler-patcher/blob/Master/support.md)
 
 #### Download ➤ [Geforce-Kepler-patcher-V5](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V5) Use after macOS Monterey 12.5 Beta 2 and Higher only
 #### Download ➤ [Geforce-Kepler-patcher-V3](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V3) Use before macOS Monterey 12.5 Beta 2 and Lower only 
