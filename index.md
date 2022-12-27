@@ -27,7 +27,7 @@ layout: default
 
 ## ⬇︎ - Support Models Desktop card:
 <details> 
-  <summary>View Support Models</summary>
+  <summary> ➦ View Support Models</summary>
 
 ### NVIDIA GeForce GTX TITAN Z
 ### NVIDIA GeForce GTX TITAN Black
