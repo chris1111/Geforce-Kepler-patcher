@@ -16,3 +16,6 @@ From macOS 12.0 B6 (21A5506j):
 From macOS 12.5 B2 :
 - Metal.framework
 
+From macOS 11.6 :
+- WebKit.framework
+
