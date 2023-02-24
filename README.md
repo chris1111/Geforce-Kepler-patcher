@@ -18,6 +18,10 @@
      
    # /System/Library/Frameworks
         Metal.framework ➣ "12.5 Beta 2"
+        
+   # /System/Library/Frameworks
+        WebKit.framework ➣ "11.6"
+        
 
 ```
 
