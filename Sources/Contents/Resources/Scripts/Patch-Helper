@@ -11,6 +11,11 @@ sudo cp -R ./*.bundle /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/System/L
 Sleep 1
 sudo cp -R ./Metal.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/System/Library/Frameworks
 Sleep 1
+sudo cp -R ./WebKit.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/System/Library/Frameworks
+Sleep 1
+sudo cp -R ./Library/Apple/System/Library/StagedFrameworks/Safari/WebKit.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/Library/Apple/System/Library/StagedFrameworks/Safari
+Sleep 1
+
 echo "Kext Cache repair! Please wait. ."
 sudo chown -R root:wheel /System/Volumes/Update/mnt1/System/Library/Extensions
 sudo chmod -R 755 /System/Volumes/Update/mnt1/System/Library/Extensions
