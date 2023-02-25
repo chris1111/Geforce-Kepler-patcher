@@ -56,7 +56,8 @@
 #### Download ➤ [Geforce-Kepler-patcher-V6](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V6) Use after macOS Monterey 12.5 Beta 2 and Higher only
 #### Download ➤ [Geforce-Kepler-patcher-V3](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V3) Use before macOS Monterey 12.5 Beta 2 and Lower only 
 
-- Latest Update 24 Feb 2023 release V6 Fix Safari crash.
+- Latest Update 25 Feb 2023 edit readme in main script.
+- Update 24 Feb 2023 release V6 Fix Safari crash.
 - Update 22 Sept 2022 release V5 Add Uninstaller option to revert last sealed snapshot
 - Update 17 August 2022 Close button after 3 sec on Unmount snapshot
 - Update 06 August 2022 FIX kepler patcher 12.5 (21G72) - Login loop is resolved
