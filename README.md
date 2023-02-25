@@ -107,7 +107,8 @@ To using this program SIP security must be disable
 - NVDAStartup.kext
 - in / System / Library / Extensions 
 - in / System / Library / Frameworks /Metal.framework
-
+- in / System / Library / Frameworks /WebKit.framework
+        
 Working for Monterey 12 Beta 7 and Higher only!
 
 - View full Video ⬇︎
