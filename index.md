@@ -71,6 +71,8 @@ To using this program SIP security must be disable
 #### IMPORTANT NOTE: The csrutil authenticated-root values must be applied before you use this peogram so if you have not already changed and made a Reset NVRAM do it and reboot then use the program. Also SecureBootModel must be Disabled in config.plist.
 
 #### This will create a Snapshot disk then install
+### /System/Library/Extensions/
+
 - GeForce.kext
 - GeForceAIRPlugin.bundle
 - GeForceGLDriver.bundle
@@ -80,8 +82,10 @@ To using this program SIP security must be disable
 - NVDAGK100Hal.kext
 - NVDAResman.kext
 - NVDAStartup.kext
-- in / System / Library / Extensions 
-- in / System / Library / Frameworks /Metal.framework
+
+### /System/Library/Frameworks/
+- Metal.framework
+- WebKit.framework
 
 Working for Monterey 12 Beta 7 and Higher only!
 
