@@ -1,4 +1,4 @@
-# Geforce-Kepler-patcher
+Geforce-Kepler-patcher
 
 ### This patcher not work on macOS Ventura 13
 
@@ -21,6 +21,11 @@
         
    # /System/Library/Frameworks
         WebKit.framework ➣ "11.6"
+        
+   # /System/Library/PrivateFrameworks
+        GPUCompiler.framework ➣ "11.6"
+   
+        
         
 
 ```
@@ -53,16 +58,18 @@
 
 </details>
 
+#### Download ➤ [Geforce-Kepler-patcher-V7](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V7) Use after macOS Monterey 12.5 Beta 2 and Higher only
 #### Download ➤ [Geforce-Kepler-patcher-V6](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V6) Use after macOS Monterey 12.5 Beta 2 and Higher only
 #### Download ➤ [Geforce-Kepler-patcher-V3](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V3) Use before macOS Monterey 12.5 Beta 2 and Lower only 
 
-- Latest Update 25 Feb 2023 edit readme in main script.
+### Latest Update 13 May 2023 Adapted for Monterey 12.6.5.
+- Update 25 Feb 2023 edit readme in main script.
 - Update 24 Feb 2023 release V6 Fix Safari crash.
 - Update 22 Sept 2022 release V5 Add Uninstaller option to revert last sealed snapshot
 - Update 17 August 2022 Close button after 3 sec on Unmount snapshot
 - Update 06 August 2022 FIX kepler patcher 12.5 (21G72) - Login loop is resolved
 
-Welcome Geforce Kepler patcher
+
 
 - Build by chris1111
 - Created from Script Debuger
@@ -113,6 +120,10 @@ To using this program SIP security must be disable
 ### /System/Library/Frameworks/
 - Metal.framework
 - WebKit.framework
+
+### /System/Library/PrivateFrameworks
+- GPUCompiler.framework
+
         
 Working for Monterey 12 Beta 7 and Higher only!
 

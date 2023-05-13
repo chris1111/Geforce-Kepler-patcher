@@ -13,6 +13,8 @@ sudo cp -R ./Metal.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/S
 Sleep 1
 sudo cp -R ./WebKit.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/System/Library/Frameworks
 Sleep 1
+sudo cp -R ./GPUCompiler.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/System/Library/PrivateFrameworks
+Sleep 1
 sudo cp -R ./Library/Apple/System/Library/StagedFrameworks/Safari/WebKit.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/Library/Apple/System/Library/StagedFrameworks/Safari
 Sleep 1
 
