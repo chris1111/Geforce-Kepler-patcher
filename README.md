@@ -64,6 +64,7 @@ Geforce-Kepler-patcher
 
 ### Latest Update 13 May 2023 Adapted for Monterey 12.6.5.
 ### How to Update macOS Monterey 12.6.6 ➤ [Update macOS Monterey 12.6.6](https://github.com/chris1111/Geforce-Kepler-patcher/blob/Master/Update%2012.6.6.md)
+------------------------------------------------------------------------
 
 - Update 25 Feb 2023 edit readme in main script.
 - Update 24 Feb 2023 release V6 Fix Safari crash.
@@ -71,11 +72,13 @@ Geforce-Kepler-patcher
 - Update 17 August 2022 Close button after 3 sec on Unmount snapshot
 - Update 06 August 2022 FIX kepler patcher 12.5 (21G72) - Login loop is resolved
 
-
+------------------------------------------------------------------------
 
 - Build by chris1111
 - Created from Script Debuger
 - Credit: Base on [Jackluke methode](https://github.com/jacklukem), Find binaries [KhronoKernel](https://github.com/dortania/PatcherSupportPkg)
+
+------------------------------------------------------------------------
 
 #### For Hackintosh with Graphics cards based on Kepler architecture only!
 - If you have a Real MAC use [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher)
