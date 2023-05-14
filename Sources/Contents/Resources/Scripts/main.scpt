@@ -39,6 +39,9 @@ install also
 Metal.framework
 WebKit.framework
 
+/System/Library/PrivateFrameworks
+GPUCompiler.framework
+
 Working for Monterey 12 Beta 7 and Higher only!
 
 " with icon note
