@@ -64,6 +64,7 @@ Geforce-Kepler-patcher
 
 ### Latest Update 13 May 2023 Adapted for Monterey 12.6.5.
 ### How to Update macOS Monterey 12.6.6 ➤ [Update macOS Monterey 12.6.6](https://github.com/chris1111/Geforce-Kepler-patcher/blob/Master/Update%2012.6.6.md)
+### How to Update macOS Monterey 12.6.7 ➤ [Update macOS Monterey 12.6.7](https://github.com/chris1111/Geforce-Kepler-patcher/blob/Master/Update%2012.6.7.md)
 ------------------------------------------------------------------------
 
 - Update 25 Feb 2023 edit readme in main script.
