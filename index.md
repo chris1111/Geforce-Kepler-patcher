@@ -40,8 +40,10 @@ layout: default
 
 ### Latest Update 13 May 2023 Adapted for Monterey 12.6.5.
 ### How to Update macOS Monterey 12.6.6 ➤ [Update macOS Monterey 12.6.6](https://github.com/chris1111/Geforce-Kepler-patcher/blob/Master/Update%2012.6.6.md)
+### How to Update macOS Monterey 12.6.7 ➤ [Update macOS Monterey 12.6.7](https://github.com/chris1111/Geforce-Kepler-patcher/blob/Master/Update%2012.6.7.md)
 ------------------------------------------------------------------------
-
+### View and discus ➤ [Latest Update](https://github.com/chris1111/Geforce-Kepler-patcher/discussions/77)
+------------------------------------------------------------------------
 - Update 25 Feb 2023 edit readme in main script.
 - Update 24 Feb 2023 release V6 Fix Safari crash.
 - Update 22 Sept 2022 release V5 Add Uninstaller option to revert last sealed snapshot
