@@ -1,6 +1,8 @@
 #!/bin/bash
 # By chris1111
-# Version "1.0" Geforce Kepler patcher# Base on jackluke work# Credit: KhronoKernel for the binaries
+# Version "1.0" Geforce Kepler patcher
+# Base on jackluke work
+# Credit: KhronoKernel for the binaries
 
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
@@ -15,7 +17,7 @@ sudo cp -R ./WebKit.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/
 Sleep 1
 sudo cp -R ./GPUCompiler.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/System/Library/PrivateFrameworks
 Sleep 1
-sudo cp -R ./Library/Apple/System/Library/StagedFrameworks/Safari/WebKit.framework /Volumes/Monterey-DISK/System/Volumes/Update/mnt1/Library/Apple/System/Library/StagedFrameworks/Safari
+sudo cp -R ./Library/Apple/System/Library/StagedFrameworks/Safari/WebKit.framework /Volumes/Monterey-DISK/Library/Apple/System/Library/StagedFrameworks/Safari
 Sleep 1
 
 echo "Kext Cache repair! Please wait. ."
