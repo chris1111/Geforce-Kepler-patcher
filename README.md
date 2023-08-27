@@ -62,7 +62,7 @@ Geforce-Kepler-patcher
 #### Download ➤ [Geforce-Kepler-patcher-V6](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V6) Use after macOS Monterey 12.5 Beta 2 and Higher only
 #### Download ➤ [Geforce-Kepler-patcher-V3](https://github.com/chris1111/Geforce-Kepler-patcher/releases/tag/V3) Use before macOS Monterey 12.5 Beta 2 and Lower only 
 
-### Latest Update 13 May 2023 Adapted for Monterey 12.6.5.
+### Latest Update 26 August 2023 fix Safari
 ### How to Update macOS Monterey 12.6.6 ➤ [Update macOS Monterey 12.6.6](https://github.com/chris1111/Geforce-Kepler-patcher/blob/Master/Update%2012.6.6.md)
 ### How to Update macOS Monterey 12.6.7 ➤ [Update macOS Monterey 12.6.7](https://github.com/chris1111/Geforce-Kepler-patcher/blob/Master/Update%2012.6.7.md)
 ------------------------------------------------------------------------
